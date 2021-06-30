@@ -3,10 +3,26 @@
 <head>
   <title> WEB1 - Welcome</title>
   <meta charset="utf-8">
+  <script src="color.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
 </head>
-
 <body>
   <h1><a href="index.html">WEB</a></h1>
+<input id="night_day" type="button" value="night" onclick="nightDayHandler(this);">
+  <!--
+  <input type="button" value="night" onclick="
+  document.querySelector('body').style.backgroundColor='black';
+  document.querySelector('body').style.color='white';
+  ">
+  <input type="button" value="day" onclick="
+  document.querySelector('body').style.backgroundColor='white';
+  document.querySelector('body').style.color='black';
+  ">
+-->
+
   <ol>
     <li><a href="1.html">HTML</a></li>
     <li><a href="2.html">CSS</a></li>
